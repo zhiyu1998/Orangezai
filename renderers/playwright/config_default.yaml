@@ -14,6 +14,9 @@ puppeteerWS:
 # headless
 headless: true
 
+# 渲染精度，2 会输出 2 倍物理像素
+deviceScaleFactor: 2
+
 # browserType 目前仅支持 chromium
 browserType: chromium
 
