@@ -12,6 +12,9 @@ puppeteerWS:
 # headless
 headless: "new"
 
+# 浏览器空闲多久后自动关闭，单位毫秒，0 表示不自动关闭
+browserIdleTimeout: 300000
+
 # puppeteer启动args，注意args的--前缀
 args:
   - --disable-gpu
